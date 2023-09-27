@@ -7,9 +7,10 @@ type ButtonTypes = {
     value: string;
     onClick?: () => void;
     disabled?: boolean;
+    className?: string;
 }
 export default function Button({
-    variant, type, icon, value, onClick, disabled
+    variant, type, icon, value, onClick, disabled, className
 }: ButtonTypes) {
 
     const getVariant = (variant: string) => {
@@ -27,7 +28,7 @@ export default function Button({
 
     return (
         <button
-            className={getVariant(variant)}
+            className={getVariant(variant) + ` ${className}`}
             type={type}
             onClick={onClick}
             disabled={disabled}

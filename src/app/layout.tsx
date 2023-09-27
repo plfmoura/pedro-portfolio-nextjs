@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + " xl:max-w-[1280px] lg:mx-auto overflow-x-hidden"}>
         <Navigation />
         {children}
         </body>
