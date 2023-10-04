@@ -5,10 +5,14 @@ import Image from "next/image";
 import pedro_image from '../../../public/pedro.png'
 import Button from '../Button';
 import { EastOutlined } from '@mui/icons-material';
+import { motion } from 'framer-motion'
 
 export default function Article() {
     return (
-        <article className="flex flex-col gap-5 mt-5">
+        <motion.article 
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 0.6 } }}
+        className="flex flex-col gap-5 mt-5">
             <div className="flex flex-col md:flex-row gap-5 lg:gap-8 justify-between text-center md:text-left">
                 <h2 className="text-5xl lg:text-6xl text-black font-bold">
                     <span className="text-gray-400">My Journey and Passion, </span>as a FrontEnd Developer
@@ -20,9 +24,9 @@ export default function Article() {
                     <Button className='hidden md:block ml-auto' value="Let's Talk" variant="primary" type="button" icon={<EastOutlined />} />
                 </div>
             </div>
-            <figure className="flex flex-col gap-5 lg:mt-12 lg:gap-8 lg:flex-row">
+            <div className="flex flex-col gap-5 lg:mt-12 lg:gap-8 lg:flex-row">
                 <Image src={pedro_image} alt="Pedro Moura - Frontend Developer" width={500} height={500} />
-                <caption className='w-[100%] gap-8 flex flex-col'>
+                <aside className='w-[100%] gap-8 flex flex-col'>
                     <p className='text-sm lg:text-lg lg:text-left'>
                         {ARTICLE_TEXT}
                     </p>
@@ -37,9 +41,9 @@ export default function Article() {
                             ))
                         }
                     </div>
-                </caption>
-            </figure>
-        </article>
+                </aside>
+            </div>
+        </motion.article>
     )
 }
 
