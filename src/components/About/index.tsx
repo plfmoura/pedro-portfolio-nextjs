@@ -36,9 +36,10 @@ export default function About() {
                     <div className="flex align-middle justify-between px-2 md:flex-wrap lg-mx-0 md:mt-0 lg:mt-12">
                         {
                             TECH_ICONS.map((icon, key) => (
-                                <div className='flex flex-col align-middle justify-between'>
+                                <div 
+                                key={key}
+                                className='flex flex-col align-middle justify-between'>
                                     <Image
-                                        key={key}
                                         src={icon.svg}
                                         alt={icon.alt}
                                         className='xs:w-fit xs:h-10 sm:h-16 md:h-14 lg:h-20 w-24 h-24 object-contain self-center' />
