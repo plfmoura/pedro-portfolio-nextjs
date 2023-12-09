@@ -18,9 +18,7 @@ export default function About() {
                     <span className="text-gray-400">My Journey and Passion, </span>as a FrontEnd Developer
                 </h2>
                 <div className='flex flex-col gap-12'>
-                    <p className="text-sm md:text-lg lg:text-xl text-black">
-                        {ARTICLE_SUB}
-                    </p>
+                    <p className="text-sm md:text-lg lg:text-xl text-black" dangerouslySetInnerHTML={{__html: ARTICLE_SUB}} />
                     <Button className='hidden md:block ml-auto' value="Let's Talk" variant="primary" type="button" icon={<EastOutlined />} />
                 </div>
             </div>
@@ -54,8 +52,8 @@ export default function About() {
     )
 }
 
-const ARTICLE_SUB = "I'm Pedro Moura, a Frontend Developer in Rio de Janeiro, crafting digital experiences that are user-friendly and highly efficient."
-const ARTICLE_TEXT = "I'm passionate about creating intuitive and visually appealing interfaces. My skills encompass technologies like <strong>React, Redux, React Native, NEXTJS, VITE,</strong> and <strong>JavaScript/TypeScript</strong>, enabling me to build high-performance web and mobile applications. With a strong background in JavaScript and TypeScript, I ensure efficiency and robustness in my code. My approach includes utilizing various tools such as <strong>HTML, CSS</strong>, and frameworks like <strong>Material UI</strong> and <strong>Tailwind CSS</strong>. I stay continuously updated with emerging technologies to deliver cutting-edge solutions."
+const ARTICLE_SUB = "I&apos;m Pedro Moura, a Frontend Developer in Rio de Janeiro, crafting digital experiences that are user-friendly and highly efficient."
+const ARTICLE_TEXT = "I&apos;m passionate about creating intuitive and visually appealing interfaces. My skills encompass technologies like <strong>React, Redux, React Native, NEXTJS, VITE,</strong> and <strong>JavaScript/TypeScript</strong>, enabling me to build high-performance web and mobile applications. With a strong background in JavaScript and TypeScript, I ensure efficiency and robustness in my code. My approach includes utilizing various tools such as <strong>HTML, CSS</strong>, and frameworks like <strong>Material UI</strong> and <strong>Tailwind CSS</strong>. I stay continuously updated with emerging technologies to deliver cutting-edge solutions."
 
 import nextIcon from '../../../public/icons/next-js.svg'
 import typescriptIcon from '../../../public/icons/typescript.svg'

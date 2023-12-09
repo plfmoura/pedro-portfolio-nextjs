@@ -1,8 +1,6 @@
 import Button from "@/components/Button";
 import About from "@/components/About"
-import { NavMiddle } from "@/components/Navigation";
 import { EastOutlined } from "@mui/icons-material";
-import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -19,9 +17,6 @@ export default function Home() {
         <About />
       </section>
       <section id="projects" className="mt-10">
-        {/* <NavMiddle /> */}
-        {/* <p className="text-2xl">Projects</p>
-        <Projects /> */}
       </section>
     </main>
   )
