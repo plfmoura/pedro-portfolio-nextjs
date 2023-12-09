@@ -18,8 +18,10 @@ export default function About() {
                     <span className="text-gray-400">My Journey and Passion, </span>as a FrontEnd Developer
                 </h2>
                 <div className='flex flex-col gap-12'>
-                    <p className="text-sm md:text-lg lg:text-xl text-black" dangerouslySetInnerHTML={{__html: ARTICLE_SUB}} />
-                    <Button className='hidden md:block ml-auto' value="Let's Talk" variant="primary" type="button" icon={<EastOutlined />} />
+                    <p className="text-sm md:text-lg lg:text-xl text-black" dangerouslySetInnerHTML={{ __html: ARTICLE_SUB }} />
+                    <a href="https://www.linkedin.com/in/pedro-lucas-moura/" target="_blank">
+                        <Button className='hidden md:block ml-auto' value="Let's Talk" variant="primary" type="button" icon={<EastOutlined />} />
+                    </a>
                 </div>
             </div>
             <div className="flex flex-col gap-5 lg:mt-12 lg:gap-8 md:flex-row">
@@ -34,9 +36,9 @@ export default function About() {
                     <div className="flex align-middle justify-between px-2 md:flex-wrap lg-mx-0 md:mt-0 lg:mt-12">
                         {
                             TECH_ICONS.map((icon, key) => (
-                                <div 
-                                key={key}
-                                className='flex flex-col align-middle justify-between'>
+                                <div
+                                    key={key}
+                                    className='flex flex-col align-middle justify-between'>
                                     <Image
                                         src={icon.svg}
                                         alt={icon.alt}

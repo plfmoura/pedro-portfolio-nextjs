@@ -10,7 +10,9 @@ export default function Home() {
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-5 w-[300px] sm:w-[80vw] xl:w-[100%]">
           Front-end Developer with emphasis on <span className="text-gray-400">React and Next.js</span>
         </h1>
-        <Button value="Let&apos;s Talk" variant="primary" type="button" icon={<EastOutlined />} />
+        <a href="https://www.linkedin.com/in/pedro-lucas-moura/" target="_blank">
+          <Button value="Let&apos;s Talk" variant="primary" type="button" icon={<EastOutlined />} />
+        </a>
       </header>
       <section id="about" className="mt-10">
         <p className="text-2xl">About me</p>
