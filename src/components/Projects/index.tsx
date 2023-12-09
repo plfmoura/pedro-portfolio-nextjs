@@ -12,14 +12,14 @@ export default function Projects() {
         </h2>
       </div>
       <div className="mt-10">
-        <Image src={vegetanizando} className='h-[250px] md:h-[400px] lg:h-[600px] object-contain' />
+        <Image src={vegetanizando} alt="Vegetanizando" className='h-[250px] md:h-[400px] lg:h-[600px] object-contain' />
         <h3 className='text-3xl lg:text-4xl text-black font-bold'>Vegetanizando Restaurant - Comprehensive Front-end Overhau</h3>
-        <p className='text-sm md:text-lg lg:text-xl text-black'>Overhaul of the entire 'Vegetanizando' project to achieve a more user-friendly and modern layout.</p>
+        <p className='text-sm md:text-lg lg:text-xl text-black'>Overhaul of the entire &apos;Vegetanizando&apos; project to achieve a more user-friendly and modern layout.</p>
       </div>
       <div className="mt-10">
-        <Image src={vegetanizando} className='h-[250px] md:h-[400px] lg:h-[600px] object-contain' />
+        <Image src={vegetanizando} alt="Vegetanizando" className='h-[250px] md:h-[400px] lg:h-[600px] object-contain' />
         <h3 className='text-3xl lg:text-4xl text-black font-bold'>Azul Tour - e-commerce platform</h3>
-        <p className='text-sm md:text-lg lg:text-xl text-black'>Overhaul of the entire 'Vegetanizando' project to achieve a more user-friendly and modern layout.</p>
+        <p className='text-sm md:text-lg lg:text-xl text-black'>Overhaul of the entire &apos;Vegetanizando&apos; project to achieve a more user-friendly and modern layout.</p>
       </div>
     </article>
   )
