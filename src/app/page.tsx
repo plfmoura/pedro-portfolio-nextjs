@@ -1,6 +1,8 @@
 import Button from "@/components/Button";
 import About from "@/components/About"
 import { EastOutlined } from "@mui/icons-material";
+import PROJECTS from '@/data/projects.json'
+import Timeline from "@/components/Timeline";
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
         <p className="text-2xl">About me</p>
         <About />
       </section>
-      <section id="projects" className="mt-10">
+      <section id="experience" className="mt-10 h-screen">
+        <p className="text-2xl">Experience</p>
+        <Timeline />
       </section>
     </main>
   )

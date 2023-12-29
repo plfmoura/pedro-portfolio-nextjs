@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export function Navigation() {
     const [showMenu, setShowMenu] = useState(false);
 
-    const MENU_OPTIONS = ['home', 'about', 'projects', 'contact']
+    const MENU_OPTIONS = ['home', 'about', 'experience', 'contact']
     
     const handleTargetClick = (target: string) => {
         const targetElement = document.getElementById(target);
@@ -59,7 +59,7 @@ export function NavMiddle() {
     return (
         <ul className='flex justify-center gap-8'>
             <li className='text-xl'>About</li>
-            <li className='text-xl'>Projects</li>
+            <li className='text-xl'>Experience</li>
             <li className='text-xl'>Contact</li>
         </ul>
     )
