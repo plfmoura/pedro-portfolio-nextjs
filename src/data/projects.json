@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Vegetanizando restaurante",
+        "path": "/projects/vegetanizando.png",
+        "description": "Reforma em todo o projeto 'Vegetanizando', para atender um layout mais amigável e moderno. <br/><br/> Vegetanizando é um site dedicado a promover um projeto fictício que surgiu durante uma conversa de brainstorming em busca de ideias para futuros empreendimentos. <br/><br/> Nos links abaixo, você encontrará mais informações sobre a transformação que 'Vegetanizando' passou e o produto resultante.",
+        "stack": "Tecnologias utilizadas: VITE | REACT | Javascript | Redux | MUI | NodeJS | MongoDB | AWS Bucket | SWAGGER | Integração de pagamento com STRIPE."
+    },
+    {
+        "id": 2,
+        "title": "Azul Tour",
+        "path": "/projects/azul-tour.png",
+        "description": "uma empresa fictícia de turismo que está abrindo as portas virtualmente. Desenvolvemos está ideia a partir do estudo da mesma, buscamos referências em sites de empresas de turismo para analisar o mercado atual na área. Desde a solução deste problema até a entrega do nosso primeiro 'MVP' a equipe se dedicou ao máximo, seguindo a risca todas as demandas estipuladas no nosso gerenciamento de tempo através de metodologias ágeis (SCRUM), agradeço a todos os envolvidos que fizeram essa ideia ser algo possível; a integração do Front-End e o Back-End em um MVP completo neste curto espaço de tempo. Atendemos nossas expectativas e colocamos em prática tudo aquilo que foi ensinado e buscado fora deste curso.",
+        "stack": "Tecnologias utilizadas: VITE | REACT | Javascript | Redux | MUI | NodeJS | MongoDB | AWS Bucket | SWAGGER | Integração de pagamento com STRIPE."
+
+    },
+    {
+        "id": 3,
+        "title": "Azul Tour - Plataforma Administrativa",
+        "path": "/projects/azul-tour.png",
+        "description": "Uma plataforma administrativa eficiente e intuitiva permite que a empresa de turismo gerencie seus produtos, serviços e reservas de forma centralizada. <br/><br/> No repositório você pode encontrar informações de como utilizar a plataforma administrativa.",
+        "stack": "Tecnologias utilizadas: VITE | REACT | Javascript | Redux | MUI | NodeJS | MongoDB | AWS Bucket | SWAGGER | Integração de pagamento com STRIPE."
+
+    },
+    {
+        "id": 4,
+        "title": "Galileu",
+        "path": "/projects/galileu.png",
+        "description": "",
+        "stack": "Tecnologias utilizadas: VITE | REACT | Javascript | Redux | MUI | NodeJS | MongoDB | AWS Bucket | SWAGGER | Integração de pagamento com STRIPE."
+    }
+]
