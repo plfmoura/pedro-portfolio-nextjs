@@ -1,5 +1,5 @@
 import React from 'react';
-import EXPERIENCE from '@/data/experience.json';
+import EXPERIENCE from '@/data/experience-en.json';
 
 export default function Timeline() {
     return (
