@@ -28,7 +28,7 @@ export default function About() {
                 <Image
                     src={pedro_image}
                     alt="Pedro Moura - Frontend Developer"
-                    className='scale-x-[-1] grayscale-[0.5] xs:self-center md:self-auto rounded-3xl xs:w-[100%] sm:w-[80%] md:w-3/4 h-4/5 object-cover'
+                    className='grayscale-[0.5] xs:self-center md:self-auto rounded-3xl xs:w-[100%] sm:w-[80%] md:w-3/4 h-4/5 object-cover'
                 />
                 <aside className='w-[100%] gap-8 flex flex-col'>
                     <p dangerouslySetInnerHTML={{ __html: ARTICLE_TEXT }} className='text-sm md:text-base md2:text-lg lg:text-left'>
