@@ -35,7 +35,7 @@ export function Navigation() {
                 <MenuOutlined onClick={() => setShowMenu(true)} style={{ fontSize: 34 }} />
                 {
                     showMenu && (
-                        <ul className='absolute top-0 right-0 p-4 flex flex-col gap-2 bg-slate-200'>
+                        <ul className='absolute top-0 right-0 p-4 flex flex-col gap-2 bg-slate-200' onMouseLeave={() => setShowMenu(false)}>
                             {
                                 MENU_OPTIONS.map((item, key) => (
                                     <li

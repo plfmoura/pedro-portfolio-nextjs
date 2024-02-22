@@ -21,8 +21,8 @@
         "type": "Remote",
         "desc": "Working in partnership with SERINEWS provides me with a unique experience where I can apply my technical knowledge and front-end development skills to meet the specific needs of each client. I have the autonomy to make decisions and manage projects, ensuring that results are delivered with excellence.",
         "time": "May 2023",
-        "end": "",
-        "status": true,
+        "end": "Jan 2024",
+        "status": false,
         "link": "https://www.linkedin.com/company/serinews/mycompany/"
     },
     {
@@ -34,8 +34,8 @@
         "type": "Remote",
         "desc": "Working at Agência 4Tuna has been a rewarding experience, where I can apply my passion for the mobile world and creativity to each project. The autonomy I have to work collaboratively with the team and clients allows us to deliver personalized and innovative solutions, driving the success of our clients.",
         "time": "May 2023",
-        "end": "",
-        "status": true,
+        "end": "Jan 2024",
+        "status": false,
         "link": "https://www.linkedin.com/company/agencia4tuna/"
     }
 ]

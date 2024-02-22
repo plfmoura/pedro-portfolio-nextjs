@@ -1,4 +1,3 @@
-import React from 'react';
 import EXPERIENCE from '@/data/experience-en.json';
 
 export default function Timeline() {
@@ -22,7 +21,7 @@ export default function Timeline() {
                                     {pos}
                                 </time>
                             ))}
-                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">{item.time} - {item.status ? 'Atualmente' : item.end}</time>
+                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">{item.time} - {item.status ? 'at the moment' : item.end}</time>
                             <p className="text-base font-normal text-gray-500 ">{item.desc}</p>
                         </div>
                     </li>

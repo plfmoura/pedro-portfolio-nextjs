@@ -2,6 +2,7 @@ import { Navigation } from '@/components/Navigation'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import ScrollTopButton from '@/components/ScrollTopButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={inter.className + " xl:max-w-[1280px] lg:mx-auto overflow-x-hidden"}>
         <Navigation />
         {children}
+        <ScrollTopButton />
         </body>
     </html>
   )
