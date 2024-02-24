@@ -1,10 +1,13 @@
 'use client'
 
-import { MenuOutlined } from '@mui/icons-material'
-import React, { useState } from 'react'
+import { MenuOutlined } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
 export function Navigation() {
+    const router = useRouter();
+
     const [showMenu, setShowMenu] = useState(false);
 
     const MENU_OPTIONS = ['home', 'about', 'experience', 'contact']
@@ -31,6 +34,12 @@ export function Navigation() {
                 className='font-bold xs:text-2xl sm:text-3xl md:text-4xl'>
                 <span className='text-gray-400'>pedro</span>.dev
             </motion.h3>
+            <p onClick={() => router.replace('/en')}>
+                English
+            </p>
+            <p onClick={() => router.replace('/br')}>
+                Portuguese
+            </p>
             <div className='relative cursor-pointer'>
                 <MenuOutlined onClick={() => setShowMenu(true)} style={{ fontSize: 34 }} />
                 {
