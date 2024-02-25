@@ -1,0 +1,39 @@
+{
+  "home": {
+    "greetings": "Hello! I'm Pedro.",
+    "title-init": "Front-end Developer with emphasis on",
+    "title-end": "React and Next.js",
+    "about-title": "About me",
+    "exp-title": "Experience",
+    "skills-title": "Technologies i've learning"
+  },
+  "about": {
+    "title-init": "My Journey and Passion, ",
+    "title-end": "as a FrontEnd Developer.",
+    "description": "I'm Pedro Moura, a Frontend Developer in Rio de Janeiro, crafting digital experiences that are user-friendly and highly efficient.",
+    "text": "I'm passionate about creating intuitive and visually appealing interfaces. My skills encompass technologies like React, Redux, React Native, NEXTJS, VITE, and JavaScript/TypeScript, enabling me to build high-performance web and mobile applications. With a strong background in JavaScript and TypeScript, I ensure efficiency and robustness in my code. My approach includes utilizing various tools such as HTML, CSS, and frameworks like Material UI and Tailwind CSS. I stay continuously updated with emerging technologies to deliver cutting-edge solutions."
+  },
+  "experience": {
+    "at-the-moment": "at the moment",
+    "manabi-pos-1": "Tech Lead",
+    "manabi-pos-2": "Front-end Developer",
+    "manabi-text": "As a Front-end Developer and Tech Lead at one of Manabi Group's partner companies, Baymetrics, I lead a team of highly skilled professionals. Together with the Manabi team, our focus is on driving innovation and technical excellence, contributing to the ongoing success of the projects we develop.",
+    "serinews-pos-1": "Front-end Developer",
+    "serinews-text": "Working in partnership with SERINEWS provides me with a unique experience where I can apply my technical knowledge and front-end development skills to meet the specific needs of each client. I have the autonomy to make decisions and manage projects, ensuring that results are delivered with excellence.",
+    "4tuna-pos-1": "Mobile Developer - React Native",
+    "4tuna-text": "Working at Agência 4Tuna has been a rewarding experience, where I can apply my passion for the mobile world and creativity to each project. The autonomy I have to work collaboratively with the team and clients allows us to deliver personalized and innovative solutions, driving the success of our clients."
+  },
+  "ui": {
+    "btn-lets-talk": "Let's talk",
+    "btn-git": "Go to Github",
+    "btn-cv": "Download CV"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "language": "Language"
+  }
+}

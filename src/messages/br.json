@@ -1,0 +1,39 @@
+{
+  "home": {
+    "greetings": "Olá! Eu sou o Pedro.",
+    "title-init": "Desenvolvedor Front-end com ênfase em",
+    "title-end": "React",
+    "about-title": "Sobre mim",
+    "exp-title": "Experiência",
+    "skills-title": "Competências"
+  },
+  "about": {
+    "title-init": "Minha Jornada, ",
+    "title-end": "como Engenheiro de Software.",
+    "description": "Eu sou Pedro Moura, um Desenvolvedor Frontend na cidade do Rio de Janeiro, dedicado a criar experiências digitais que não apenas são amigáveis ao usuário, mas também altamente eficientes.",
+    "text": "Sou focado em criar interfaces intuitivas e visualmente atraentes. Minhas habilidades abrangem tecnologias como React, Redux, React Native, NEXTJS, VITE e Typescript, permitindo-me construir aplicativos web e móveis de alto desempenho. Com uma sólida experiência na linguagem, garanto eficiência aplicações. Minha abordagem inclui a utilização de várias ferramentas, como Material UI e Tailwind CSS, além de conhecimentos em Bootstrap. Mantenho-me continuamente atualizado com as tecnologias emergentes para oferecer soluções de ponta."
+  },
+  "experience": {
+    "at-the-moment": "Atualmente",
+    "manabi-pos-1": "Líder Técnico",
+    "manabi-pos-2": "Desenvolvedor Front-end",
+    "manabi-text": "Como Desenvolvedor Front-end e Líder Técnico em uma das empresas parceiras do Grupo Manabi, na Baymetrics, liderei uma equipe de profissionais altamente qualificados. Juntamente com a equipe Manabi, nosso foco foi impulsionar a inovação e a excelência técnica, contribuindo para o sucesso do projeto que desenvolvemos. Atualmente sou Desenvolvedor Front-end Pleno na Manabi, onde continuo a contribuir para o sucesso da empresa.",
+    "serinews-pos-1": "Desenvolvedor Front-end",
+    "serinews-text": "Trabalhar em parceria com a SERINEWS me proporciona uma experiência única onde posso aplicar meu conhecimento técnico e habilidades de desenvolvimento front-end para atender às necessidades específicas de cada cliente. Tenho autonomia para tomar decisões e gerenciar projetos, garantindo que os resultados sejam entregues com excelência.",
+    "4tuna-pos-1": "Desenvolvedor Mobile - React Native",
+    "4tuna-text": "Trabalhar na Agência 4Tuna tem sido uma experiência gratificante, onde posso aplicar minha curiosidade pelo mundo mobile e criatividade a cada projeto. A autonomia que tenho para trabalhar em colaboração com as equipes e clientes nos permite entregar soluções personalizadas e inovadoras, impulsionando o sucesso de nossos produtos."
+  },
+  "ui": {
+    "btn-lets-talk": "Vamos conversar",
+    "btn-git": "Ir para o Github",
+    "btn-cv": "Baixar CV"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Competências",
+    "contact": "Contato",
+    "language": "Idioma"
+  }
+}

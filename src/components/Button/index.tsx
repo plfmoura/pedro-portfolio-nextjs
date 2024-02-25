@@ -1,4 +1,6 @@
-import React, { ReactNode } from 'react'
+import { TrendingFlat } from '@mui/icons-material';
+import { useTranslations } from 'next-intl';
+import { ReactNode } from 'react';
 
 type ButtonTypes = {
     variant: 'primary' | 'secondary' | 'tertiary';
@@ -9,12 +11,13 @@ type ButtonTypes = {
     disabled?: boolean;
     className?: string;
 }
-export default function Button({
+
+export function Button({
     variant, type, icon, value, onClick, disabled, className
 }: ButtonTypes) {
 
     const getVariant = (variant: string) => {
-        let defaultBtn = "w-[200px] flex gap-2 justify-center px-4 py-2 rounded-full font-bold transition duration-300 ease-in-out"
+        let defaultBtn = "flex gap-2 justify-center px-8 py-2 rounded-full font-bold transition duration-300 ease-in-out"
         let selectedVariant: string = ""
         if (variant === 'primary') {
             selectedVariant = `${defaultBtn} bg-black hover:bg-slate-700 text-white hover:text-slate-100 active:bg-slate-200`
@@ -35,5 +38,20 @@ export default function Button({
         >
             {value}{icon && icon}
         </button>
+    )
+}
+
+type LetsTalkProps = {
+    link: string;
+    variant: 'primary' | 'secondary' | 'tertiary';
+}
+
+export function BtnLetsTalk({ link, variant }: LetsTalkProps) {
+    const t = useTranslations('ui');
+
+    return (
+        <a href={link} target="_blank">
+            <Button value={t('btn-lets-talk')} variant={variant} type="button" icon={<TrendingFlat />} />
+        </a>
     )
 }
