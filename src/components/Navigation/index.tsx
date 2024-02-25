@@ -32,7 +32,7 @@ export function Navigation() {
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, transition: { duration: 0.3 } }}
                 className='font-bold xs:text-2xl sm:text-3xl md:text-4xl'>
-                <span className='text-gray-400'>pedro</span>.dev
+                <span className='text-gray-400'>dev</span>.pedro
             </motion.h3>
             <p onClick={() => router.replace('/en')}>
                 English
