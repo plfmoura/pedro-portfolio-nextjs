@@ -1,6 +1,9 @@
-import EXPERIENCE from '@/data/experience-en.json';
+import EXPERIENCE from '@/data/experience.json';
+import { useTranslations } from 'next-intl';
 
 export default function Timeline() {
+  const t = useTranslations('experience');
+
     return (
         <ol className="items-center sm:flex mt-5 ml-4">
             {
@@ -18,11 +21,11 @@ export default function Timeline() {
                             <h3 className="text-lg font-semibold text-gray-900">{item.company}</h3>
                             {item.position.map((pos, key) => (
                                 <time key={key} className="inline-block mr-2 mb-2 text-sm font-normal leading-none text-gray-600 mt-2">
-                                    {pos}
+                                    {t(pos)}
                                 </time>
                             ))}
-                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">{item.time} - {item.status ? 'at the moment' : item.end}</time>
-                            <p className="text-base font-normal text-gray-500 ">{item.desc}</p>
+                            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">{item.time} - {item.status ? t('at-the-moment') : item.end}</time>
+                            <p className="text-base font-normal text-gray-500 ">{t(item.desc)}</p>
                         </div>
                     </li>
                 ))

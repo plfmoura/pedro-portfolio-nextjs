@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "company": "Manabi Technology",
+        "location": "Uberlândia, Minas Gerais, Brazil",
+        "path": "/company/manabi.jpeg",
+        "position": ["manabi-pos-1", "manabi-pos-2"],
+        "type": "Remote",
+        "desc": "manabi-text",
+        "time": "Nov 2023",
+        "end": "",
+        "status": true,
+        "link": "https://www.linkedin.com/company/manabitechnology/mycompany/"
+    },
+    {
+        "id": 2,
+        "company": "Serinews Intelligence Service",
+        "location": "São Paulo, Brazil",
+        "path": "/company/serinews.jpeg",
+        "position": ["serinews-pos-1"],
+        "type": "Remote",
+        "desc": "serinews-text",
+        "time": "May 2023",
+        "end": "Jan 2024",
+        "status": false,
+        "link": "https://www.linkedin.com/company/serinews/mycompany/"
+    },
+    {
+        "id": 3,
+        "company": "Agência 4tuna",
+        "location": "Rio de Janeiro, Brazil",
+        "path": "/company/4tuna.jpeg",
+        "position": ["4tuna-pos-1"],
+        "type": "Remote",
+        "desc": "4tuna-text",
+        "time": "May 2023",
+        "end": "Jan 2024",
+        "status": false,
+        "link": "https://www.linkedin.com/company/agencia4tuna/"
+    }
+]

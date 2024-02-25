@@ -10,7 +10,7 @@ export function Navigation() {
 
     const [showMenu, setShowMenu] = useState(false);
 
-    const MENU_OPTIONS = ['home', 'about', 'experience', 'contact']
+    const MENU_OPTIONS = ['home', 'about', 'experience', 'skills', 'contact']
     
     const handleTargetClick = (target: string) => {
         const targetElement = document.getElementById(target);
