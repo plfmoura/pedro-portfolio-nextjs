@@ -24,8 +24,8 @@ export default function LocaleLayout({
   return (
     <html lang={locale}>
       <body className={inter.className + " xl:max-w-[1280px] lg:mx-auto overflow-x-hidden"}>
-        <Navigation />
         <NextIntlClientProvider locale={locale} messages={messages}>
+        <Navigation />
           {children}
         </NextIntlClientProvider>
         <ScrollTopButton />

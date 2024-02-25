@@ -27,5 +27,13 @@
     "btn-lets-talk": "Vamos conversar",
     "btn-git": "Ir para o Github",
     "btn-cv": "Baixar CV"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Competências",
+    "contact": "Contato",
+    "language": "Idioma"
   }
 }
